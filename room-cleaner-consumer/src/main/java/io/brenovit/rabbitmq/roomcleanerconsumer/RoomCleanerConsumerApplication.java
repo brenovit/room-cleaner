@@ -18,7 +18,7 @@ public class RoomCleanerConsumerApplication {
 	@Value("${amqp.queue.name")
 	private String queueName;
 	
-	@Value("${amqp.queue.name")
+	@Value("${amqp.exchange.name")
 	private String exchangeName;
 	
 	@Bean

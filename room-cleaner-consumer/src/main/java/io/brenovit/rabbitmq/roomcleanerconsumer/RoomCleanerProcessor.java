@@ -5,9 +5,9 @@ import org.springframework.stereotype.Component;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 
-@Log4j2
+@Slf4j
 @Component
 public class RoomCleanerProcessor {
 	
@@ -28,5 +28,5 @@ public class RoomCleanerProcessor {
 			log.error(e.getMessage(), e);
 		}
 	}
-	
+	or
 }
